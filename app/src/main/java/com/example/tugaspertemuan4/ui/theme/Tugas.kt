@@ -73,6 +73,11 @@ fun MahasiswaCard(
                 contentDescription = null,
                 modifier = Modifier.size(60.dp)
             )
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = 12.dp)
+            ) {}
         }
     }
 }
