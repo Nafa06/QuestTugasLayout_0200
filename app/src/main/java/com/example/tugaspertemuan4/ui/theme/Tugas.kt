@@ -57,11 +57,18 @@ fun TugasPertama() {
         )
 
         MahasiswaCard(
+            namaResource = R.string.nama1,
+            alamatResource = R.string.alamat1,
+            nimResource = R.string.nim,
+            bgColorResource = R.color.bg_card1,
+            alamatColorResource = R.color.alamat
+        )
+        MahasiswaCard(
             namaResource = R.string.nama2,
             alamatResource = R.string.alamat2,
             nimResource = R.string.nim,
             bgColorResource = R.color.bg_card2,
-            alamatColorResource = R.color.alamat
+            alamatColorResource = R.color.white
         )
         MahasiswaCard(
             namaResource = R.string.nama3,
