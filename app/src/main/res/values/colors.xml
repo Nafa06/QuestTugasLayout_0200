@@ -9,5 +9,6 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="bg_card">#575454</color>
+    <color name="bg_card1">#673AB7</color>
 
 </resources>
