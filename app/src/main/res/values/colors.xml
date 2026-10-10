@@ -10,5 +10,6 @@
 
     <color name="bg_card">#575454</color>
     <color name="bg_card1">#673AB7</color>
+    <color name="bg_card2">#0000FF</color>
 
 </resources>
