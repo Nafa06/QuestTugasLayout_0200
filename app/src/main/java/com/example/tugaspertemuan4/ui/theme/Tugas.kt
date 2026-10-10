@@ -77,7 +77,15 @@ fun MahasiswaCard(
                 modifier = Modifier
                     .weight(1f)
                     .padding(horizontal = 12.dp)
-            ) {}
+            ) {
+                Text(
+                    text = stringResource(id = namaResource),
+                    fontSize = 20.sp,
+                    fontFamily = fontFamily,
+                    fontWeight = fontWeight,
+                    color = colorResource(id = R.color.white)
+                )
+            }
         }
     }
 }
