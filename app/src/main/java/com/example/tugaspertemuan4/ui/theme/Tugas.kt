@@ -63,6 +63,13 @@ fun TugasPertama() {
             bgColorResource = R.color.bg_card2,
             alamatColorResource = R.color.alamat
         )
+        MahasiswaCard(
+            namaResource = R.string.nama3,
+            alamatResource = R.string.alamat3,
+            nimResource = R.string.nim,
+            bgColorResource = R.color.bg_card3,
+            alamatColorResource = R.color.white
+        )
     }
 }
 
