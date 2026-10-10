@@ -55,6 +55,14 @@ fun TugasPertama() {
             fontFamily = FontFamily.Cursive,
             fontWeight = FontWeight.Normal
         )
+
+        MahasiswaCard(
+            namaResource = R.string.nama2,
+            alamatResource = R.string.alamat2,
+            nimResource = R.string.nim,
+            bgColorResource = R.color.bg_card2,
+            alamatColorResource = R.color.alamat
+        )
     }
 }
 
