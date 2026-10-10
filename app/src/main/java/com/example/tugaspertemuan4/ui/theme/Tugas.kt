@@ -45,6 +45,16 @@ fun TugasPertama() {
             color = colorResource(id = R.color.black)
         )
         Spacer(modifier = Modifier.height(24.dp))
+
+        MahasiswaCard(
+            namaResource = R.string.nama,
+            alamatResource = R.string.alamat,
+            nimResource = null,
+            bgColorResource = R.color.bg_card,
+            alamatColorResource = R.color.alamat,
+            fontFamily = FontFamily.Cursive,
+            fontWeight = FontWeight.Normal
+        )
     }
 }
 
