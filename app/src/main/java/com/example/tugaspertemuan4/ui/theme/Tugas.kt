@@ -28,6 +28,12 @@ fun TugasPertama() {
             fontWeight = FontWeight.Bold,
             color = colorResource(id = R.color.black)
         )
+        Text(
+            text = stringResource(id = R.string.univ),
+            fontSize = 14.sp,
+            fontWeight = FontWeight.Bold,
+            color = colorResource(id = R.color.black)
+        )
     }
         
     }
