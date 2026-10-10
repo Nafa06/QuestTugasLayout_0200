@@ -1,7 +1,9 @@
 package com.example.tugaspertemuan4.ui.theme
 
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -34,6 +36,7 @@ fun TugasPertama() {
             fontWeight = FontWeight.Bold,
             color = colorResource(id = R.color.black)
         )
+        Spacer(modifier = Modifier.height(24.dp))
     }
         
     }
