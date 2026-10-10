@@ -77,6 +77,13 @@ fun TugasPertama() {
             bgColorResource = R.color.bg_card3,
             alamatColorResource = R.color.white
         )
+        Spacer(modifier = Modifier.weight(1f))
+
+        Text(
+            text = stringResource(id = R.string.copy),
+            fontSize = 12.sp,
+            color = colorResource(id = R.color.black)
+        )
     }
 }
 
