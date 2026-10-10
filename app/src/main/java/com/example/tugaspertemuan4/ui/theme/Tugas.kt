@@ -89,6 +89,13 @@ fun MahasiswaCard(
                     fontWeight = fontWeight,
                     color = colorResource(id = R.color.white)
                 )
+                if (nimResource != null) {
+                    Text(
+                        text = stringResource(id = nimResource),
+                        fontSize = 13.sp,
+                        color = colorResource(id = R.color.nim)
+                    )
+                }
                 Text(
                     text = stringResource(id = alamatResource),
                     fontSize = 13.sp,
