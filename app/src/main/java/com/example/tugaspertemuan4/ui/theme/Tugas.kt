@@ -11,6 +11,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -38,5 +39,17 @@ fun TugasPertama() {
         )
         Spacer(modifier = Modifier.height(24.dp))
     }
-        
-    }
+}
+
+@Composable
+fun MahasiswaCard(
+    namaResource: Int,
+    alamatResource: Int,
+    nimResource: Int?,
+    bgColorResource: Int,
+    alamatColorResource: Int,
+    fontFamily: FontFamily = FontFamily.Default,
+    fontWeight: FontWeight = FontWeight.Bold
+) {
+
+}
