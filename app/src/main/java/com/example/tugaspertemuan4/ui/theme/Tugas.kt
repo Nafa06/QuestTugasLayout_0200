@@ -25,11 +25,11 @@ import androidx.compose.ui.unit.sp
 import com.example.tugaspertemuan4.R
 
 @Composable
-fun TugasPertama() {
+fun TugasPertama(modifier: Modifier) {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(top = 40.dp, bottom = 16.dp),
+            .padding(top = 100.dp, bottom = 16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
@@ -140,12 +140,12 @@ fun MahasiswaCard(
                     fontSize = 13.sp,
                     color = colorResource(id = alamatColorResource)
                 )
-                Image(
-                    painter = painterResource(id = R.drawable.logo_umy),
-                    contentDescription = null,
-                    modifier = Modifier.size(60.dp)
-                )
             }
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = null,
+                modifier = Modifier.size(60.dp)
+            )
         }
     }
 }
